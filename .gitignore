@@ -2,10 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-upload.sh
-input/
-output/
-quant/
 
 *.log
 

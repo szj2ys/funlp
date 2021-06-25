@@ -1,0 +1,7 @@
+click
+click_help_colors
+numpy
+jieba
+gensim>=3.5.0
+
+

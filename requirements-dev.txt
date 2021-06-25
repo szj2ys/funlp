@@ -1,0 +1,13 @@
+ipykernel
+jupyter
+twine
+black
+click
+click_help_colors
+autoflake
+wheel
+numpy
+jieba
+gensim>=3.5.0
+
+

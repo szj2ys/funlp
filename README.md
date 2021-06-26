@@ -1,8 +1,8 @@
 
 
 # FUNLP
+<img width="400" src="https://github.com/szj2ys/funlp/raw/master/datasets/resources/logo.png" alt="Logo" />
 
-[comment]: <> (<img width="500" src="https://raw.githubusercontent.com/kwai/DouZero/main/imgs/douzero_logo.jpg" alt="Logo" />)
 
 Funlp: Having fun with language processing
 ==============================================

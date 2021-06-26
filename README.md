@@ -1,12 +1,18 @@
+
+
 # FUNLP
 <img width="500" src="https://raw.githubusercontent.com/kwai/DouZero/main/imgs/douzero_logo.jpg" alt="Logo" />
 
 Funlp: Having fun with language processing
 ==============================================
 
-[![image](https://img.shields.io/pypi/v/funlp.svg)](https://python.org/pypi/pipenv)
-[![image](https://img.shields.io/pypi/l/funlp.svg)](https://python.org/pypi/pipenv)
-[![image](https://img.shields.io/pypi/pyversions/funlp.svg)](https://python.org/pypi/pipenv)
+[![image](https://img.shields.io/badge/build-passing-green.svg)](https://python.org/pypi/funlp)
+[![image](https://badge.fury.io/py/funlp.svg)](https://python.org/pypi/funlp)
+[![image](https://img.shields.io/pypi/l/funlp.svg?color=orange)](https://python.org/pypi/funlp)
+[![image](https://img.shields.io/pypi/pyversions/funlp.svg)](https://python.org/pypi/funlp)
+[![image](https://img.shields.io/badge/Optuna-integrated-blue)](https://python.org/pypi/funlp)
+[![image](https://img.shields.io/pypi/dm/funlp)](https://python.org/pypi/funlp)
+[![image](https://img.shields.io/github/last-commit/szj2ys/funlp)](https://python.org/pypi/funlp)
 
 
 

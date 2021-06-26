@@ -4,15 +4,13 @@
 
 
 Funlp: Having fun with language processing
-==============================================
+============================
 
-[![image](https://img.shields.io/badge/build-passing-green.svg)](https://python.org/pypi/funlp)
 [![image](https://badge.fury.io/py/funlp.svg)](https://python.org/pypi/funlp)
 [![image](https://img.shields.io/pypi/l/funlp.svg?color=orange)](https://python.org/pypi/funlp)
 [![image](https://img.shields.io/pypi/pyversions/funlp.svg)](https://python.org/pypi/funlp)
-[![image](https://img.shields.io/badge/Optuna-integrated-blue)](https://python.org/pypi/funlp)
-[![image](https://img.shields.io/pypi/dm/funlp?color)](https://python.org/pypi/funlp)
-[![image](https://img.shields.io/github/last-commit/szj2ys/funlp)](https://python.org/pypi/funlp)
+[![image](https://img.shields.io/pypi/dm/funlp?color=blue)](https://python.org/pypi/funlp)
+[![image](https://img.shields.io/github/last-commit/szj2ys/funlp?color=blue)](https://python.org/pypi/funlp)
 
 
 

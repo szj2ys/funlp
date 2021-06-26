@@ -1,6 +1,6 @@
 
 
-<img align="center" width="400" src="https://github.com/szj2ys/funlp/raw/master/datasets/resources/logo.png" alt="Logo" />
+<img align="center" width="200" src="https://github.com/szj2ys/funlp/raw/master/datasets/resources/logo.png" alt="Logo" />
 
 
 Funlp: Having fun with language processing

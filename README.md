@@ -21,7 +21,7 @@
     <a href="https://python.org/pypi/funlp">
         <img src="https://img.shields.io/github/last-commit/szj2ys/funlp?color=blue" alt="GitHub last commit"/>
     </a>
-    <a href="https://python.org/pypi/funlp">
+    <a href="https://github.com/szj2ys/funlp">
         <img src="https://img.shields.io/github/stars/szj2ys/funlp?style=social" alt="Stars"/>
     </a>
 </p>

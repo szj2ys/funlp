@@ -1,16 +1,31 @@
 
+<p align="center">
+    <img width="200" src="https://github.com/szj2ys/funlp/raw/master/datasets/resources/logo.png"/>
+</p>
 
-<img align="center" width="200" src="https://github.com/szj2ys/funlp/raw/master/datasets/resources/logo.png" alt="Logo" />
+<h3 align="center">
+    <p>Having fun with language processing</p>
+</h3>
 
 
-Funlp: Having fun with language processing
-============================
+<p align="center">
+    <a href="https://python.org/pypi/funlp">
+        <img src="https://badge.fury.io/py/funlp.svg" alt="Version"/>
+    </a>
+    <a href="https://python.org/pypi/funlp">
+        <img src="https://img.shields.io/pypi/l/funlp.svg?color=orange" alt="License"/>
+    </a>
+    <a href="https://python.org/pypi/funlp">
+        <img src="https://img.shields.io/pypi/dm/funlp?color=blue" alt="pypi downloads"/>
+    </a>
+    <a href="https://python.org/pypi/funlp">
+        <img src="https://img.shields.io/github/last-commit/szj2ys/funlp?color=blue" alt="GitHub last commit"/>
+    </a>
+    <a href="https://python.org/pypi/funlp">
+        <img src="https://img.shields.io/github/stars/szj2ys/funlp?style=social" alt="Stars"/>
+    </a>
+</p>
 
-[![image](https://badge.fury.io/py/funlp.svg)](https://python.org/pypi/funlp)
-[![image](https://img.shields.io/pypi/l/funlp.svg?color=orange)](https://python.org/pypi/funlp)
-[![image](https://img.shields.io/pypi/pyversions/funlp.svg)](https://python.org/pypi/funlp)
-[![image](https://img.shields.io/pypi/dm/funlp?color=blue)](https://python.org/pypi/funlp)
-[![image](https://img.shields.io/github/last-commit/szj2ys/funlp?color=blue)](https://python.org/pypi/funlp)
 
 
 

@@ -2,6 +2,7 @@ click
 click_help_colors
 numpy
 jieba
+stopwds
 gensim>=3.5.0
 
 

@@ -11,7 +11,7 @@ import os
 from itertools import count
 import codecs
 
-class TextRank4Word(object):
+class TextRank4Words(object):
     def __init__(self,use_stopword=False,stop_words_file=None,max_iter=100,tol=0.0001,window=2):
         """
         :param max_iter: 最大的迭代轮次
@@ -66,8 +66,7 @@ class TextRank4Word(object):
         return graph
 
     def summarize(self,text,n):
-        text = text.replace('\n', '')
-        text = text.replace('\r', '')
+        text = text.replace('\n', '').replace('\r', '')
         text = util.as_text(text)#处理编码问题
         tokens=util.cut_sentences(text)
         #sentences用于记录文章最原本的句子，sents用于各种计算操作
@@ -80,6 +79,8 @@ class TextRank4Word(object):
         sent_index = []
         for i in range(n):
             sent_index.append(sent_selected[i][1])  # 添加入关键词在原来文章中的下标
-        return [index_word[i] for i in sent_index]
+
+        for i in sent_index:
+            yield index_word[i]
 
 

@@ -1,5 +1,6 @@
 click
 click_help_colors
+cython
 numpy
 jieba
 stopwds

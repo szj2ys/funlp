@@ -1,5 +1,6 @@
 ipykernel
 jupyter
+cython
 twine
 black
 click

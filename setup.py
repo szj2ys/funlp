@@ -83,8 +83,8 @@ setup(
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     python_requires=">=3.6.0",
-    packages=find_packages(exclude=["examples", "datasets", "settings"]),
-    package_data={NAME: ["py.typed"]},
+    packages=find_packages(exclude=["examples"]),
+    package_data={NAME: ["*", "datasets/*", "datasets/fonts/*"]},
     data_files=[("", ["LICENSE"])],
     install_requires=read_requirements("requirements.txt"),
     include_package_data=True,
@@ -94,9 +94,10 @@ setup(
     license="MIT",  # BSD
     classifiers=[
         "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: Implementation :: PyPy",
+        "Programming Language :: Python :: 3.9",
     ],
     zip_safe=False,
 )

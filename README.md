@@ -30,6 +30,15 @@
 
 
 # Installation
+```shell
+pip install funlp
+```
+you may want to checkout the version
+```shell
+funlp version
+```
+Haha, `funlp` is now on your environment, having fun with it, enjoy ...
+
 
 # Usage
 ## TextRank4Sentence

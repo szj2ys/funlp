@@ -68,6 +68,7 @@ class TextRank4Sentence(object):
             sents = self.filter_dictword(sents)
         graph = self.create_graph_sentence(sents, self.__use_w2v)
         scores = util.weight_map_rank(graph, self.__max_iter, self.__tol)
+        topn = topn if topn < len(sentences) else len(sentences)  # handle topn > sentences situation
         sent_selected = nlargest(topn, zip(scores, count()))
         sent_index = []
         for i in range(topn):

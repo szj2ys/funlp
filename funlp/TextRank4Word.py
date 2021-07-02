@@ -65,7 +65,7 @@ class TextRank4Words(object):
                     graph[index2][index1] += 1.0
         return graph
 
-    def summarize(self,text,n):
+    def summarize(self,text,topn):
         text = text.replace('\n', '').replace('\r', '')
         text = util.as_text(text)#处理编码问题
         tokens=util.cut_sentences(text)
@@ -75,9 +75,10 @@ class TextRank4Words(object):
         word_index, index_word, words_number=self.build_worddict(sents)
         graph=self.build_word_grah(sents,words_number,word_index,window=self.__window)
         scores = util.weight_map_rank(graph,max_iter=self.__max_iter,tol=self.__tol)
-        sent_selected = nlargest(n, zip(scores, count()))
+        topn = topn if topn < words_number else words_number  # handle topn > words_number situation
+        sent_selected = nlargest(topn, zip(scores, count()))
         sent_index = []
-        for i in range(n):
+        for i in range(topn):
             sent_index.append(sent_selected[i][1])  # 添加入关键词在原来文章中的下标
 
         for i in sent_index:

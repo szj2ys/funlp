@@ -32,6 +32,10 @@ share/python-wheels/
 *.egg
 demo*
 test*
+*test.py
+*demo.py
+demo*.py
+test*.py
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

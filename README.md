@@ -16,7 +16,16 @@
         <img src="https://img.shields.io/pypi/l/funlp.svg?color=orange" alt="License"/>
     </a>
     <a href="https://python.org/pypi/funlp">
+        <img src="https://static.pepy.tech/badge/funlp?color=blue" alt="pypi downloads"/>
+    </a>
+    <a href="https://python.org/pypi/funlp">
         <img src="https://img.shields.io/pypi/dm/funlp?color=blue" alt="pypi downloads"/>
+    </a>
+    <a href="https://python.org/pypi/funlp">
+        <img src="https://img.shields.io/pypi/dw/funlp?color=blue" alt="pypi downloads"/>
+    </a>
+    <a href="https://python.org/pypi/funlp">
+        <img src="https://img.shields.io/pypi/dd/funlp?color=blue" alt="pypi downloads"/>
     </a>
     <a href="https://python.org/pypi/funlp">
         <img src="https://img.shields.io/github/last-commit/szj2ys/funlp?color=blue" alt="GitHub last commit"/>

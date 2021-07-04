@@ -24,5 +24,5 @@ ${PREFIX}black ${PACKAGE} --check
 ${PIP} install -y ${PACKAGE}
 ${PIP} install -e .
 
-
+bash scripts/clean.sh
 

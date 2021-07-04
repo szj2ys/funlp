@@ -17,3 +17,5 @@ ${PREFIX}black ${PACKAGE} --check
 ${PREFIX}python setup.py sdist bdist_wheel --universal
 ${PREFIX}twine upload dist/*
 #${PREFIX}mkdocs gh-deploy --force
+
+bash scripts/clean.sh

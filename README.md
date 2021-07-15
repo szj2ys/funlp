@@ -16,16 +16,10 @@
         <img src="https://img.shields.io/pypi/l/funlp.svg?color=orange" alt="License"/>
     </a>
     <a href="https://python.org/pypi/funlp">
-        <img src="https://static.pepy.tech/badge/funlp?color=blue" alt="pypi downloads"/>
+        <img src="https://static.pepy.tech/badge/funlp?color=blue" alt="pypi total downloads"/>
     </a>
     <a href="https://python.org/pypi/funlp">
         <img src="https://img.shields.io/pypi/dm/funlp?color=blue" alt="pypi downloads"/>
-    </a>
-    <a href="https://python.org/pypi/funlp">
-        <img src="https://img.shields.io/pypi/dw/funlp?color=blue" alt="pypi downloads"/>
-    </a>
-    <a href="https://python.org/pypi/funlp">
-        <img src="https://img.shields.io/pypi/dd/funlp?color=blue" alt="pypi downloads"/>
     </a>
     <a href="https://python.org/pypi/funlp">
         <img src="https://img.shields.io/github/last-commit/szj2ys/funlp?color=blue" alt="GitHub last commit"/>
@@ -50,8 +44,11 @@ Haha, `funlp` is now on your environment, having fun with it, enjoy ...
 
 
 # Usage
-## TextRank4Sentence
-```python
+
+<details>
+  <summary>TextRank4Sentence</summary>
+
+  ```python
 from funlp import TextRank4Sentence
 import codecs
 
@@ -59,9 +56,13 @@ rank4sent = TextRank4Sentence(use_w2v=False,tol=0.0001)
 
 text = codecs.open('./datasets/input/当前中国经济实现完全数字化，小微企业的投资机会将是蓝海.txt', 'r', 'utf-8').read()
 rank4sent.summarize(text, 10)
-```
+  ```
+</details>
 
-## 
+
+<details>
+  <summary>TextRank4Words</summary>
+
 ```python
 from funlp import TextRank4Words
 import codecs
@@ -71,8 +72,17 @@ rank4words = TextRank4Words(tol=0.0001,window=2)
 text = codecs.open('../datasets/input/当前中国经济实现完全数字化，小微企业的投资机会将是蓝海.txt', 'r', 'utf-8').read()
 rank4words.summarize(text, 10)
 ```
+</details>
+
 
 ## Acknowlegements
-*   The project is largely based on [FastTextRank](https://github.com/ArtistScript/FastTextRank)
-*   Code implementation is inspired by [Fasttext](https://github.com/facebookresearch/torchbeast)
+* [google research](https://github.com/google-research/google-research)
+* [fairseq](https://github.com/pytorch/fairseq)
+* [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf)
+* [LARGE BATCH OPTIMIZATION FOR DEEP LEARNING:
+TRAINING BERT IN 76 MINUTES](https://arxiv.org/pdf/1904.00962.pdf)
+* [预训练小模型也能拿下13项NLP任务，ALBERT三大改造登顶GLUE基准](http://baijiahao.baidu.com/s?id=1645712785366950083&wfr=spider&for=pc)
+* [Pre-Training with Whole Word Masking for Chinese BERT](https://github.com/ymcui/Chinese-BERT-wwm)
+
+
 
